@@ -10,12 +10,14 @@
 	<header>
 		<nav>
 			<div class="title">
-				{ Muhamad Bayu Wilanda }
+				<a href=".">{ Muhamad Bayu Wilanda }</a>
 			</div>
 			<ul>
 				<li><a href="#">/home</a></li>
-				<li><a href="#">/portofolio</a></li>
-				<li><a href="#">/contact</a></li>
+				<li><a href="#about">#about</a></li>
+				<li><a href="portofolio.html">/portofolio</a></li>
+				<li><a href="blog.html">/blog</a></li>
+				<li><a href="contact.html">#contact</a></li>
 			</ul>
 		</nav>
 		<div class="intro">
@@ -26,8 +28,8 @@
 		<script>
 			$(function(){
 				$("#typed").typed({
-					strings: ["Hai! Perkenalkan, nama saya Muhamad Bayu Wilanda .", "Saya biasa dipanggil Bayu.", "Ini adalah website portofolio saya.","Silakan klik link <a href='#' style='color:white'>ini</a>, untuk melihat portofolio saya.<br>Terimakasih :)"],
-					typeSpeed: 100,
+					strings: ["Hai! Perkenalkan, nama saya Muhamad Bayu Wilanda.", "Saya biasa dipanggil Bayu.", "Ini adalah website portofolio saya.","Sayangnya website ini belum <i>sempurna</i>, dan dalam tahap pengerjaan :(","Sabar ya :)","Salam kenal! :)"],
+					typeSpeed: 50,
 			  callback: function(){
 				shift();
 			  }
@@ -37,7 +39,11 @@
 	</header>
 
 	<section>
-		
+		<article id="about" class="about">
+			<h1>#about</h1>
+			<hr>
+			<!-- <p>Muhamad Bayu Wilanda saat ini sedang menempuh pendidikan S1-nya dengan jurusan Sistem Informasi di Univeristas Gunadarma, Depok.</p> -->
+		</article>
 	</section>
 
 	<footer>
