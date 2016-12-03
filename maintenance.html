@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/typed.min.js"></script>
+		
+		<style>
+			.text-body {
+				margin: 300px auto;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="text-body">
+				<span id="typed"></span>
+		</div>
+		<script>
+			$(function(){
+				$("#typed").typed({
+					strings: ["Maaf, halaman ini sedang maintenance.<br>sabar ya.<br>Terimakasih :)"],
+					typeSpeed: 50,
+			  callback: function(){
+				shift();
+			  }
+				});
+			});
+		</script>	
+	</body>
+</html>
